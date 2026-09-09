@@ -6,7 +6,7 @@
 import React, { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
+import { Footer } from '../src/components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
 import { HomePage } from './pages/HomePage';
 import { GalleryPage } from './pages/GalleryPage';
