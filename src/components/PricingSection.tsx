@@ -141,7 +141,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onSelectPackage 
                   <h3 className="text-xl font-serif-title font-bold text-stone-900 mb-1">
                     {pkg.name}
                   </h3>
-                  <p className="text-xs text-[#2A4736] font-medium mb-4 min-h-[32px]">
+                  <p className="text-xs text-[#2A4736] font-medium mb-4 min-h-8">
                     {pkg.tagline}
                   </p>
 

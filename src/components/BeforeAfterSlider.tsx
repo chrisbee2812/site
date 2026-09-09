@@ -158,7 +158,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
         onPointerCancel={handlePointerCancel}
-        className={`relative aspect-[4/3] w-full overflow-hidden touch-none select-none focus:outline-none focus:ring-2 focus:ring-[#2A4736] focus:ring-inset ${
+        className={`relative aspect-4/3 w-full overflow-hidden touch-none select-none focus:outline-none focus:ring-2 focus:ring-[#2A4736] focus:ring-inset ${
           isDragging ? 'cursor-grabbing' : 'cursor-ew-resize'
         }`}
       >

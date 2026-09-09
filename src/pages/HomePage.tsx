@@ -98,14 +98,14 @@ export const HomePage: React.FC = () => {
               className="lg:col-span-5 relative"
             >
               <div className="relative mx-auto max-w-md lg:max-w-none group">
-                <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white aspect-[4/5] bg-stone-100">
+                <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white aspect-4/5 bg-stone-100">
                   <img
                     src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=1000&q=80"
                     alt="Happy freshly groomed dog receiving gentle care"
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     loading="eager"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-stone-950/60 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-stone-950/60 via-transparent to-transparent" />
                   
                   {/* Overlay Badge */}
                   <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-white/60 shadow-lg">
@@ -129,7 +129,7 @@ export const HomePage: React.FC = () => {
                 </div>
 
                 {/* Floating Credential Chip */}
-                <div className="absolute -top-4 -left-4 bg-white px-4 py-2.5 rounded-2xl shadow-lg border border-stone-200/80 flex items-center gap-2.5 hidden sm:flex">
+                <div className="absolute -top-4 -left-4 bg-white px-4 py-2.5 rounded-2xl shadow-lg border border-stone-200/80 items-center gap-2.5 hidden sm:flex">
                   <div className="w-8 h-8 rounded-full bg-[#EBF1ED] flex items-center justify-center text-[#2A4736]">
                     <ShieldCheck className="w-4 h-4" />
                   </div>
